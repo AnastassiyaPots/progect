@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div border="1">
+        <img src="" alt="">
+    </div>
+    <form action="https://example.codempire.ru/upload.php" method="POST">
+        <label for="">Имя</label>
+            <input type="Имя" name="name" required >
+        <br>
+        <br>
+        <label for="email">email</label>
+            <input type="email" placeholder="email" name="email" id="email">
+        <br>
+        <br>
+            <input type="submit" value="Отправить">
+        <br>
+        <br>
+        <label for="username">Имя</label>
+            <input type="text" name="name" id="username">
+        <br>
+        <br>
+        <div>
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <br>
+        <label>Число A</label>
+            <input type="number" min="1" max="999" step="1" name="a">
+        <label>Число B</label>
+            <input type="number" min="1" max="999" step="1" name="b">
+        <input type="submit" value="Отправить">
+    </form>
+    <br>
+    <br> --> 
+    <form enctype="multipart/form-data" action="https://example.codempire.ru/upload.php" method="POST">
+        <input type="file" multiplen name="avatar">
+        <input type="submit" value="Отправить" style="color: red; background-color: aquamarine; font-size: 32px;" >
+        <br>
+        <br>
+        <label for=""><input type="radio" name="question" value="A" checked>A</label>
+        <label for=""><input type="radio" name="question" value="B">B</label>
+        <label for=""><input type="radio" name="question" value="B">C</label>
+        <br>
+        <br>
+        <label for=""><input type="checkbox" name="question[]" value="A" checked>A</label>
+        <label for=""><input type="checkbox" name="question[]" value="B" checked>B</label>
+        <label for=""><input type="checkbox" name="question[]" value="B">C</label>
+
+         <select name="subject">
+            <option value="1">HTML</option>
+            <option value="">JS</option>
+            <option value="">React</option>
+            <option value="">PHP</option>
+         </select>
+    </form>
+
+
+    
+</body>
+</html>
